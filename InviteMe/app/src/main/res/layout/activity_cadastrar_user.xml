@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edu.fatec.inviteme.CadastrarUserActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lp_mark_1x"
+        tools:layout_editor_absoluteX="-101dp"
+        tools:layout_editor_absoluteY="-47dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's"
+        android:textColor="@color/letsColor"
+        android:textSize="@dimen/TamanhoLetrasLogo"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party!"
+        android:textColor="@color/partyColor"
+        android:textSize="@dimen/TamanhoLetrasLogo"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <EditText
+        android:id="@+id/enterNameId"
+        android:layout_width="@dimen/AlturaCaixaEntrada"
+        android:layout_height="@dimen/HCaixa"
+        android:ems="10"
+        android:hint="Digite seu nome"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <EditText
+        android:id="@+id/enterEmailId"
+        android:layout_width="@dimen/AlturaCaixaEntrada"
+        android:layout_height="@dimen/HCaixa"
+        android:ems="10"
+        android:hint="Digite seu E-mail"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <EditText
+        android:id="@+id/enterSenhaId"
+        android:layout_width="@dimen/AlturaCaixaEntrada"
+        android:layout_height="@dimen/HCaixa"
+        android:ems="10"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/buttonCadastrarId"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/partyColor"
+        android:text="Cadastrar"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="374dp"
+        android:onClick="registerUser"/>
+
+    <Button
+        android:id="@+id/buttonCancellId"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:textColor="@color/partyColor"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+</android.support.constraint.ConstraintLayout>

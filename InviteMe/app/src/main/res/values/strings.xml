@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InviteMe</string>
+    <string name="enter_email">Entre com seu e-mail!</string>
+    <string name="enter_name">Entre com seu nome!</string>
+    <string name="enter_pass">Entre com sua senha!</string>
+    <string name="resgistering">Registrando usuario...</string>
+    <string name="registeringSucess">Cadastro realizado com sucesso!</string>
+    <string name="registeringError">Erro ao se cadastrar</string>
+</resources>

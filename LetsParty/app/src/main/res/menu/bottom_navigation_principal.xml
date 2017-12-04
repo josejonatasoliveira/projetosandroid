@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <tabs>
+
+        <tab
+            id="@+id/home"
+            icon="@drawable/ic_home"
+            title="Home"
+            />
+
+        <tab
+            id="@+id/add"
+            icon="@drawable/ic_add"
+            title="Add"
+            />
+        <tab
+            id="@+id/ticket"
+            icon="@drawable/ic_ticket"
+            title="Cupons"
+            />
+
+
+
+    </tabs>
+
+
+</menu>

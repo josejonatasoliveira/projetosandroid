@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AlturaCaixaEntrada">290dp</dimen>
+    <dimen name="HCaixa">40dp</dimen>
+    <dimen name="sizeIcon" />
+    <dimen name="sizeIcon1">50dp</dimen>
+    <dimen name="TamanhoLetrasLogo">42sp</dimen>
+</resources>

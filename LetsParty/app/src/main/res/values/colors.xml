@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLogo">#0044a9</color>
+    <color name="alerta">#f70606</color>
+    <color name="corFacebook">#3b5998</color>
+    <color name="CorFundo">#343d4e</color>
+    <color name="letsColor">#fd1344</color>
+    <color name="partyColor">#007cdb</color>
+    <color name="vinhoFundo">#98012e</color>
+    <color name="fundoCinza">#374051</color>
+</resources>
